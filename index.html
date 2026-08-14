@@ -69,7 +69,7 @@
     animation:spin 18s linear infinite;
   }
   .stamp-ring::before{
-    content:'★ RUTA ROBÓTICA ★';
+    content:'★';
     position:absolute;
     width:100%;height:100%;
     font-family:'Space Mono',monospace;
@@ -215,65 +215,7 @@
     color:var(--ink);
   }
   .polaroid figcaption b{color:var(--coral);}
-
-  /* ---------- video ---------- */
-  .video-frame{
-    border-radius:20px;
-    overflow:hidden;
-    border:3px solid var(--ink);
-    box-shadow:8px 8px 0 var(--sky);
-    aspect-ratio:16/9;
-  }
-  .video-frame iframe{width:100%;height:100%;border:0;display:block;}
-  .video-caption{
-    margin-top:16px;
-    font-size:.95rem;
-    color:var(--ink);
-    opacity:.85;
-  }
-
-  /* ---------- audio ---------- */
-  .player{
-    background:var(--teal);
-    color:var(--cream);
-    border-radius:22px;
-    padding:28px 26px;
-    display:flex;
-    align-items:center;
-    gap:20px;
-    flex-wrap:wrap;
-  }
-  .play-btn{
-    width:64px;height:64px;
-    border-radius:50%;
-    border:none;
-    background:var(--coral);
-    color:#fff;
-    font-size:1.4rem;
-    cursor:pointer;
-    display:flex;align-items:center;justify-content:center;
-    flex:none;
-    transition:transform .15s ease;
-  }
-  .play-btn:hover{transform:scale(1.08);}
-  .player-info{flex:1; min-width:180px;}
-  .player-info .title{font-family:'Fredoka',sans-serif; font-size:1.05rem;}
-  .player-info .sub{font-family:'Space Mono',monospace; font-size:.72rem; opacity:.75; margin-top:4px;}
-  .bars{display:flex; align-items:flex-end; gap:4px; height:32px; flex:none;}
-  .bars span{
-    width:4px;
-    background:var(--yellow);
-    border-radius:2px;
-    height:6px;
-    transition:height .12s ease;
-  }
-  .audio-note{
-    margin-top:14px;
-    font-size:.85rem;
-    color:var(--ink);
-    opacity:.75;
-  }
-
+  
   /* ---------- info adicional ---------- */
   .data-grid{
     display:grid;
